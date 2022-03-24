@@ -6,6 +6,7 @@ body{
 }
 p{
     line-height: 2;
+    color: white;
 }
 img{
     max-width: 100%;
