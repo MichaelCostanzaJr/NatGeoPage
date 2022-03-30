@@ -26,12 +26,22 @@ h3:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+.pick-item p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
 /*utilities*/
 p.read-btn{
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 5px;
+}
+p.read-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .container{
     width: 90%;
@@ -137,9 +147,6 @@ margin-left: auto;
     width: 30px;
     margin-right: auto;
     margin-left: auto;
-    
-     
-
 }
 /*main news*/
 .main-news{
@@ -172,44 +179,127 @@ margin-left: auto;
     margin-bottom: 20px;
 
 }
-.secondary-news-img{
-    
+.secondary-news-img img{
+    height: 100%;
+    margin-top: 10px;
 
 }
 .secondary-news-text{
     background-color: white;
-    padding: 10px;
-    margin-top: -5px;
+    height: 125px;
+    padding: 20px;
+    margin-top: -45px;
+    position: relative;
 }
 .secondary-news-text h3{
-    padding-bottom: 0;
-    
+    color: black;
+    font-size: 10px;
+    margin-top:-10px;
+    letter-spacing: 5px;
 }
-.secondary-news-text h3 span{
+.secondary-news-text p{
+    letter-spacing: 2.5px;
+    font-size: 20px;
     font-weight: 700;
-  
 }
-.secondary-news-text p.title{
-    font-size:24px;
-    font-weight:700;
+.secondary-news-text p.read-btn{
+    color: black;
+    margin-top: 40px;
+    font-size: 13px;
 }
+/*third news*/
+.third-news{
+    margin-bottom: 20px;
+
+}
+.third-news-img img{
+    height: 310px;
+    margin-top: 10px;
+
+}
+.third-news-text{
+    background-color: white;
+    height: 130px;
+    padding: 20px;
+    margin-top: -.1px;
+    position: relative;
+}
+.third-news-text h3{
+    color: black;
+    font-size: 10px;
+    margin-top:-10px;
+    letter-spacing: 5px;
+}
+.third-news-text h3 span{
+    color: grey;
+    font-size: 10px;
+}
+.third-news-text p{
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.third-news-text p.read-btn{
+    color: black;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
 
 /*Todays Picks*/
 .todays-pick{
     display: grid;
-    grid-template-columns: 100px 300px;
+    grid-template-columns:300px;
     margin-bottom: 20px;
+    margin-left: 20px;
     column-gap: 30px;
+}
+.todays-pick h2{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 35px;
+    border-left: 5px solid #ffcc00;
+    text-align: center;
+
 }
 .pick-item img{
     width: 100px;
     height: 100px;
 }
-.picks-text p{
+.pick-item h3{
+    position: relative;
+    top: -110px;
+    left: 120px;
+}
+.pick-item p{
     color:white;
     font-weight: 700;
     line-height: 1.5;
+    position: relative;
+    bottom: 120px;
+    left: 120px;
 }
-.picks-text p:hover{
+.pick-item p:hover{
     text-decoration: underline;
+}
+h4{
+    color: white;
+    position: relative;
+    left: 190px;
+    bottom: 70px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+    width: 80px;
+    border-bottom:2px solid var(--primary);
+}
+h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-image:linear-gradient(to bottom, black 10%, var(--primary) 10%);
+    transition: background-position .1s ease-in-out, color .1s ease-in-out;
 }
