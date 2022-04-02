@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="normilize.css">
-    
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/normilize.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>My National Geographic</title>
 </head>
 <body>
@@ -35,74 +35,89 @@
         
         </div>
     </header>
-    <main class="container">
-        <div class="main-news">
-            <div class="main-news-img">
-                <img src="img/T.rex.webp">
-            </div> <!--main-news-img-->
-            <div class="main-news-text">
-                <h3>Science</h3>
-                <p class="title">Stan the T.rex found!</T></p>
-                <p class="read-btn"><i class="fas fa-bars"></i>read</p>
-            </div> <!--main-news-text-->
-        </div><!--Main-news-->
-        <div class="secondary-news">
-            <div class="secondary-news-img">
-                <img src="img/Pandemic.webp">
-            </div> <!--Seconday-news-img-->
-            <div class="secondary-news-text">
-                <h3>Science</h3>
-                <p>The 1918 pandemic mistake that changed medicine forever</p>
-                <p class="read-btn"><i class="fas fa-bars"></i>read</p>
-            </div> <!--Seconday-news-text-->
-        </div> <!--Secondary-news-->
-        <div class="third-news">
-            <div class="third-news-img">
-                <img src="img/BIG FISH.jpeg">
-            </div> <!--Third-news-img-->
-            <div class="third-news-text">
-                <h3>Enviroment <span>Planet Possible</span></h3>
-                <p>Inside the plan to save some of the biggest freshwater fish</p>
-                <p class="read-btn"><i class="fas fa-bars"></i>read</p>
-            </div> <!--Third-news-text-->
-           
-        </div><!--Third-news-->
-
-    </main> <!--Main ends-->
-    <section class="todays-pick">
-        <h2>Today's picks</h2>
-            <div class="pick-item">
-                <img src="img/Dragon toes.jpeg">
-                <div class="picks-text">
-                    <h3>Travel <span>Planet Possible</span></h3>
-                    <p>Explore the Oregon Coast-but don't touch the 'dragon toes'</p>
+    <div class="flex-container container">
+        <main>
+            <div class="main-news">
+                <div class="main-news-img">
+                    <img src="img/T.rex.webp">
+                </div> <!--main-news-img-->
+                <div class="main-news-text">
+                    <h3>Science</h3>
+                    <p class="title">Stan the T.rex found!</T></p>
+                    <p class="read-btn"><i class="fas fa-bars"></i>read</p>
+                </div> <!--main-news-text-->
+            </div><!--Main-news-->
+        <div class="secondary-news-container">
+            <div class="secondary-news">
+                <div class="secondary-news-img">
+                    <img src="img/Pandemic.webp">
+                </div> <!--Seconday-news-img-->
+                <div class="secondary-news-text">
+                    <h3>Science</h3>
+                    <p>The 1918 pandemic mistake that changed medicine forever</p>
+                    <p class="read-btn"><i class="fas fa-bars"></i>read</p>
+                </div> <!--Seconday-news-text-->
+            </div> <!--Secondary-news-->
+        </div> <!--secondary-news-container-->
+        <div class="third-news-container">
+            <div class="secondary-news">
+                <div class="secondary-news-img">
+                    <img src="img/BIG FISH.jpeg">
+                </div> <!--Third-news-img-->
+                <div class="secondary-news-text">
+                    <h3>Enviroment <span>Planet Possible</span></h3>
+                    <p>Inside the plan to save some of the biggest freshwater fish</p>
+                    <p class="read-btn"><i class="fas fa-bars"></i>read</p>
+                </div> <!--Third-news-text-->
+            </div><!--Third-news-->
+        </div> <!--Third-news-container-->
+        </main> <!--Main ends-->
+        <section class="todays-pick">
+            <h2>Today's picks</h2>
+                <div class="pick-item">
+                    <img src="img/Dragon toes.jpeg">
+                    <div class="picks-text">
+                        <h3>Travel <span>Planet Possible</span></h3>
+                        <p>Explore the Oregon Coast-but don't touch the 'dragon toes'</p>
+                    </div>
                 </div>
-            </div>
-            <div class="pick-item">
-                <img src="img/Californias groundwater.webp">
-                <h3>Enviroment <span>Planet Possible</span></h3>
-                <p>The deceptively simple plan to replenish California's groundwater</p>
-            </div>
-            <div class="pick-item">
-                <img src="img/Cold war.webp">
-                <h3>History & Culture</h3>
-                <p>What was the Cold War-and are we headed to another one?</p>
-            <div class="pick-item">
-                <img src="img/Spinosaurus had penguin-like bones.jpeg">
-                <h3>Science</h3>
-                <p>Spinosaurus had bones like penguins,sign of underwater hunting</p>
-            </div>
-            <div class="pick-item">
-                <img src="img/Dinosaurs died.webp">
-                <h3>Science</h3>
-                <p>New clues reveal the devastation the day the dinosaurs died</p>
-            </div>
-            <div class="pick-item">
-                <img src="img/Hawai'i's hula tradition.webp">
-                <h3>Travel</h3>
-                <p>The surprising histroy of Hawai'i's hula tradition</p>
-            </div>
-            <h4>see more</h4>
-    </section>
+                <div class="pick-item">
+                    <img src="img/Californias groundwater.webp">
+                    <div class="picks-text">
+                    <h3>Enviroment <span>Planet Possible</span></h3>
+                    <p>The deceptively simple plan to replenish California's groundwater</p>
+                    </div>
+                </div>
+                <div class="pick-item">
+                    <img src="img/Cold war.webp">
+                    <div class="picks-text">>
+                        <h3>History & Culture</h3>
+                        <p>What was the Cold War-and are we headed to another one?</p>
+                    </div>
+                </div>
+                <div class="pick-item">
+                    <img src="img/Spinosaurus had penguin-like bones.jpeg">
+                    <div class="picks-text">
+                        <h3>Science</h3>
+                        <p>Spinosaurus had bones like penguins,sign of underwater hunting</p>
+                    </div>
+                </div>
+                <div class="pick-item">
+                    <img src="img/Dinosaurs died.webp">
+                    <div class="picks-text">
+                        <h3>Science</h3>
+                        <p>New clues reveal the devastation the day the dinosaurs died</p>
+                    </div>
+                </div>
+                <div class="pick-item">
+                    <img src="img/Hawai'i's hula tradition.webp">
+                    <div class="picks-text">
+                        <h3>Travel</h3>
+                        <p>The surprising histroy of Hawai'i's hula tradition</p>
+                    </div>
+                </div>
+                <h4>see more</h4>
+        </section>
+    </div> <!--flex-container-->
 </body>
 </html>
